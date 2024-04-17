@@ -21,30 +21,6 @@ nav {
     justify-content: space-between;
 }
 
-.nav-country {
-    display: flex;
-    align-items: center;
-}
-
-.nav-country img {
-    margin-right: 10px;
-}
-
-.nav-text {
-    margin-left: 20px;
-}
-
-.nav-cart {
-    display: flex;
-    align-items: center;
-    color: #fff;
-    text-decoration: none;
-}
-
-.nav-cart img {
-    margin-right: 5px;
-}
-
 .nav-bottom {
     background-color: #232f3e;
     color: #fff;
@@ -53,8 +29,8 @@ nav {
     justify-content: space-around;
 }
 
-/* Cart styles */
-.cart-container {
+/* Product page styles */
+.product-page {
     max-width: 800px;
     margin: 20px auto;
     background-color: #fff;
@@ -63,35 +39,50 @@ nav {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.cart-items {
-    margin-bottom: 20px;
+.product-images {
+    text-align: center;
 }
 
-.cart-item {
-    display: flex;
-    margin-bottom: 20px;
-}
-
-.cart-item-image {
-    width: 100px;
+.product-image {
+    max-width: 100%;
     height: auto;
-    margin-right: 20px;
+    border-radius: 5px;
 }
 
-.cart-item-details h2 {
-    margin-bottom: 5px;
-}
-
-.cart-total {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 1px solid #ccc;
-    padding-top: 10px;
+.product-info {
     margin-top: 20px;
 }
 
-.checkout-button {
+.product-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.product-rating img {
+    width: 20px;
+}
+
+.product-description {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.product-options {
+    margin-top: 20px;
+}
+
+.product-options label {
+    font-weight: bold;
+}
+
+.product-options input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.add-to-cart {
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
@@ -101,8 +92,24 @@ nav {
     transition: background-color 0.3s ease;
 }
 
-.checkout-button:hover {
+.add-to-cart:hover {
     background-color: #0056b3;
+}
+
+.product-features {
+    margin-top: 20px;
+}
+
+.product-features h2 {
+    margin-bottom: 10px;
+}
+
+.product-features ul {
+    list-style-type: none;
+}
+
+.product-features ul li {
+    margin-bottom: 5px;
 }
 
 /* Footer styles */
